@@ -1,4 +1,4 @@
-diart
+diart == 0.7
 python-socketio
 faster-whisper
 stable-ts

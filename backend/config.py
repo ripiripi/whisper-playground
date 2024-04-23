@@ -1,8 +1,8 @@
 from diart import PipelineConfig
 from enum import Enum
 
-TRANSCRIPTION_DEVICE = "cuda"  # use 'cpu' if it doesn't work
-COMPUTE_TYPE = "int8_float16"  # use float32 with cpu
+TRANSCRIPTION_DEVICE = "cpu"  # use 'cpu' if it doesn't work
+COMPUTE_TYPE = "float32"#"int8_float16"  # use float32 with cpu
 
 SLIDING_WINDOW_LENGTH = 5
 PROBABILITY_THRESHOLD = 0.5  # Diart will recognize a speaker if the probability of them speaking is higher than this
